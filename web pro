@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Alieth </title> 
+    <link rel="stylesheet" href="style.css">
+
+</head> 
+
+<body>
+    <header>
+        <div class="menu_bar1">
+            <a href="sign-in.html"><button class="sign-in" type="button">تسجيل الدخول</button></a>
+            <h1>  موقع الليث للبيئة و السياحة و الاثار </h1>
+            
+            <a href="index.html"><img width="110px" height="80px" 
+                src="image/laith.jpg"  alt="image"> </a>
+            
+        </div>
+
+        
+        <div class="navbar">
+            <a>الرئيسية</a>
+
+            <div class="subnav">
+                <button class="subnavbtn">من نحن</button>
+                <div class="subnav-content">
+                    <a href="#">  الرؤية و الرسالة</a>
+                    <a href="#">  الهيكل الاداري</a>
+                </div>
+
+            </div>
+
+            <div class="subnav">
+                <button class="subnavbtn">المناطق السياحية </button>
+                <div class="subnav-content">
+                    <a href="#">  جزيرة جبل الليث  </a>
+                    <a href="#">  العين الحار </a>
+                    <a href="#">  وادي عليب </a>
+                    <a href="#">  شواطئي بحرية </a>
+                    <a href="#">  منتزهات ترفيهية </a>
+                    <a href="#">  مطاعم واسواق </a>
+                    <a href="#">  شقق فندقية </a>
+                </div>
+            </div>
+
+            <div class="subnav">
+                <button class="subnavbtn">المناطق الاثرية</button>
+                <div class="subnav-content">
+                    <a href="#">  قرية الليث القديمة </a>
+                    <a href="#">   المباني الحجرية</a>
+
+                </div>
+
+            </div>
+
+            <div class="subnav">
+                <button class="subnavbtn">البيئية</button>
+                <div class="subnav-content">
+                    <a href="#">  مناخ الليث </a>
+                    <a href="#">   صيد الاسماك </a>
+                    <a href="#">  صيد الصقور </a>
+                    <a href="#">  الزراعة النباتية </a>
+                    <a href="#">  الزراعة الحيوانية</a>
+                    <a href="#">  الزراعة السمكية</a>
+                    <a href="#">  النباتات البرية</a>
+                    <a href="#">  الحيوانات البرية</a>
+                </div>
+
+            </div>
+
+            <div class="subnav">
+                <button class="subnavbtn">خدماتنا</button>
+                <div class="subnav-content">
+                    <a href="#">  الارشاد السياحي</a>
+                    <a href="#">  الارشاد الزراعي </a>
+                    <a href="#">  الارشاد الصناعي </a>
+                    <a href="#">  الارشاد السكني</a>
+                    <a href="#">  الارشاد الثقافي</a>
+                </div>
+            </div>
+
+            <a>تواصل معنا</a>
+        </div>
+    </header>
+
+
+    <main>
+        <div>
+            
+        </div>
+    </main>
+
+
+
+
+
+
+
+</body>
+
+</html>
