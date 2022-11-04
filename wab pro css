@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+      
+}
+body{
+    background-color: rgb(10, 8, 7);
+}
+.menu_bar1{
+    width: 100%;
+    height: 10vh;
+    background-color:rgb(233, 25, 10);
+    justify-content: right;
+    display: flex;
+}
+.menu_bar1 a  .sign-in{
+    background-color:inherit;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:18px;
+    margin: 11px 35px;
+    cursor: pointer;
+}
+.menu_bar1 h1{
+    float: right;
+    padding: 15px;
+    margin-right: 2px;
+    margin-left: 500px;
+    color: #ffff;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+.navbar{
+    width: 100%;
+    background-color: rgb(138, 38, 8);
+    color: #ffff;
+    display: inline-block;
+}
+.navbar a{
+    float: right;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.subnav{
+    overflow: hidden;
+    float: right;
+    margin-right: 10px;
+}
+.subnav .subnavbtn{
+    font-size: 18px;  
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: inherit;  
+    color: #ffff;
+}
+.navbar a:hover, .subnav:hover .subnavbtn{
+    background-color: rgb(90, 77, 77);
+}
+.subnav-content{
+    display: none;
+    position: absolute;
+    width: 150px;
+    background-color:dimgray;
+    z-index: 1;
+    
+}
+.subnav-content a{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: block;
+    margin-right: 20px;
+}
+.subnav-content a:hover{
+    background-color: rgb(202, 6, 6);
+    border-radius: 10px;
+    color: #fff;
+}
+.subnav:hover .subnav-content{
+    display: block;
+}
